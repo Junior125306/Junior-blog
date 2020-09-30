@@ -10,7 +10,7 @@ const marked = require('marked')
 module.exports = {
   siteUrl: 'https://blog.zz-yy.top',
   siteName: "Junior's Blog",
-  siteDescription: '开发者 / 设计师 / 少数派 / 学生',
+  siteDescription: '程序员 / 社畜 / 学生',
 
   templates: {
     Post: '/:year/:month/:slug',
@@ -33,34 +33,36 @@ module.exports = {
         },
       },
     },
-    {
-      use: '@microflash/gridsome-plugin-feed',
-      options: {
-        contentTypes: ['Post'],
-        feedOptions: {
-          title: "Spencer's Blog",
-          description: 'Spencer Woo - 开发者 / 设计师 / 少数派 / 学生',
-          image: 'https://blog.spencerwoo.com/av.png',
-          favicon: 'https://blog.spencerwoo.com/av.png',
-        },
-        rss: {
-          enabled: true,
-          output: '/posts/index.xml',
-        },
-        htmlFields: ['description', 'content'],
-        enforceTrailingSlashes: false,
-        filterNodes: node => node.published,
-        nodeToFeedItem: node => ({
-          title: node.title,
-          date: node.date,
-          content: marked(node.content),
-        }),
-      },
-    },
+    //订阅插件，暂时不需要
+    // {
+    //   use: '@microflash/gridsome-plugin-feed',
+    //   options: {
+    //     contentTypes: ['Post'],
+    //     feedOptions: {
+    //       title: "Junior's Blog",
+    //       description: '程序员 / 社畜 / 学生',
+    //       image: 'https://blog.spencerwoo.com/av.png',
+    //       favicon: 'https://blog.spencerwoo.com/av.png',
+    //     },
+    //     rss: {
+    //       enabled: true,
+    //       output: '/posts/index.xml',
+    //     },
+    //     htmlFields: ['description', 'content'],
+    //     enforceTrailingSlashes: false,
+    //     filterNodes: node => node.published,
+    //     nodeToFeedItem: node => ({
+    //       title: node.title,
+    //       date: node.date,
+    //       content: marked(node.content),
+    //     }),
+    //   },
+    // },
+    //谷歌统计插件，不会用
     {
       use: '@gridsome/plugin-google-analytics',
       options: {
-        id: 'UA-111664763-2',
+        id: 'UA-179298528-1',
       },
     },
   ],

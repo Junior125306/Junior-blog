@@ -1,15 +1,14 @@
 <template>
   <div>
-    <h1 class="not-found-title text-center space-bottom">404</h1>
+    <h1 class="not-found-title text-center space-bottom" style="font-size: 3.5em">404</h1>
     <div class="not-found-container">
       <p class="description">
-        🍌 Oh, no, not here.
-        <g-link to="/">Take me back home. ↩</g-link>
+        <g-link to="/"> 🐷你迷路了</g-link>
       </p>
       <g-image
         alt="404 Not Found"
         class="not-found-bg"
-        src="~/assets/images/404.svg"
+        src="~/assets/images/404.png"
         blur="5"
       />
     </div>
@@ -17,6 +16,12 @@
 </template>
 
 <style lang="scss" scoped>
+
+  a:not(.button){
+    color: #666;
+    text-decoration:none;
+  }
+
 .not-found-container {
   text-align: center;
   max-width: var(--content-width);
@@ -24,6 +29,7 @@
 
   .description {
     opacity: 0.8;
+    font-size: 0.5em;
   }
 }
 </style>

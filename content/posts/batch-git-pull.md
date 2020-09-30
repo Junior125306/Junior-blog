@@ -1,5 +1,5 @@
 ---
-title: Batch Git Pull：分享一个维护多个 Git 仓库的小脚本
+title: Git：此文章用来记录
 date: 2019-11-13
 published: true
 slug: batch-git-pull

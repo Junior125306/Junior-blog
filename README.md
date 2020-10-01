@@ -2,11 +2,11 @@ By:Junior
 
 Originated in the [spencerwooo](https://github.com/spencerwooo/blog)
 
-## npm install  or other
+## install
 
-if error for libvips
-
-Download libvips-8.9.1-win32-x64.tar  to C:\Users\\{username}\AppData\Roaming\npm-cache\_libvips\
+```bash
+yarn install
+```
 
 ## Build & preview
 

@@ -1,6 +1,11 @@
 <template>
   <div>
-    <h1 class="not-found-title text-center space-bottom" style="font-size: 3.5em">404</h1>
+    <h1
+      class="not-found-title text-center space-bottom"
+      style="font-size: 3.5em"
+    >
+      404
+    </h1>
     <div class="not-found-container">
       <p class="description">
         <g-link to="/">🐷你迷路了</g-link>
@@ -16,11 +21,10 @@
 </template>
 
 <style lang="scss" scoped>
-
-  a:not(.button){
-    color: #666;
-    text-decoration:none;
-  }
+a:not(.button) {
+  color: #666;
+  text-decoration: none;
+}
 
 .not-found-container {
   text-align: center;

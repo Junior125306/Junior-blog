@@ -3,7 +3,7 @@
     <g-image
       alt="Author image"
       class="author__image"
-      src="https://cdn.zz-yy.top/Images/avatar.webp"
+      src="https://cdn.zz-yy.top/avatar.webp"
       width="180"
       height="180"
       blur="5"

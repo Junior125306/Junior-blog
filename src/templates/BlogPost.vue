@@ -4,7 +4,7 @@
       <h1 class="post-title__text">
         {{ $page.post.title }}
         <span class="post-title__publish-icon" v-if="!$page.post.published"
-          >DRAFT</span
+        >DRAFT</span
         >
       </h1>
 
@@ -40,20 +40,20 @@
           v-if="$page.previous"
           :href="$page.previous.path"
           style="float: left;"
-          >&#9664; {{ $page.previous.title }}</a
+        >&#9664; {{ $page.previous.title }}</a
         >
         <a
           class="navlink"
           v-if="$page.next"
           :href="$page.next.path"
           style="float: right;"
-          >{{ $page.next.title }} &#9654;</a
+        >{{ $page.next.title }} &#9654;</a
         >
       </div>
     </div>
 
     <div class="post-comments">
-      <div id="disqus_thread" />
+      <!--      <div id="disqus_thread" />-->
     </div>
 
     <transition name="fade">
@@ -121,55 +121,55 @@ export default {
     const today = new Date()
     const publishTime = new Date(this.$page.post.date)
     const publishedDays = Math.ceil(
-      (today - publishTime) / (1000 * 60 * 60 * 24)
+      (today - publishTime) / (1000 * 60 * 60 * 24),
     )
     this.publishedDays = publishedDays
 
     // Initialize post comment by DisqusJS
-    if (process.env.NODE_ENV === 'production') {
-      const disqusjs = new DisqusJS({
-        shortname: 'spencerwoo',
-        siteName: "Spencer's Blog",
-        identifier: this.$page.post.path,
-        apikey:
-          'F6hHeFWtfmWW5n4RVf4hjgazRj8y0ERfQdeQPIGKr79yajw6glnmTqrgYHTC8XaS',
-        admin: 'spencerwoo',
-        adminLabel: 'Admin',
-      })
-    }
+    // if (process.env.NODE_ENV === 'production') {
+    //   const disqusjs = new DisqusJS({
+    //     shortname: 'spencerwoo',
+    //     siteName: "Spencer's Blog",
+    //     identifier: this.$page.post.path,
+    //     apikey:
+    //       'F6hHeFWtfmWW5n4RVf4hjgazRj8y0ERfQdeQPIGKr79yajw6glnmTqrgYHTC8XaS',
+    //     admin: 'spencerwoo',
+    //     adminLabel: 'Admin',
+    //   })
+    // }
   },
 }
 </script>
 
 <page-query>
 query Post ($id: ID!, $previousElement: ID!, $nextElement: ID!) {
-  post: post (id: $id) {
-    title
-    path
-    date (format: "MMMM D. YYYY")
-    timeToRead
-    cjkWordCount
-    cjkReadTime
-    tags {
-      id
-      title
-      path
-    }
-    description
-    published
-    content
-    cover_image (width: 1280, blur: 10)
-  }
+post: post (id: $id) {
+title
+path
+date (format: "MMMM D. YYYY")
+timeToRead
+cjkWordCount
+cjkReadTime
+tags {
+id
+title
+path
+}
+description
+published
+content
+cover_image (width: 1280, blur: 10)
+}
 
-  previous: post (id: $previousElement) {
-    title
-    path
-  }
+previous: post (id: $previousElement) {
+title
+path
+}
 
-  next: post(id: $nextElement) {
-    title
-    path
-  }
+next: post(id: $nextElement) {
+title
+path
+}
 }
 </page-query>
 
@@ -257,12 +257,14 @@ query Post ($id: ID!, $previousElement: ID!, $nextElement: ID!) {
   p {
     display: inline;
   }
+
   hr {
     padding: calc(var(--space) / 2) 0 0 0;
     border: none;
     border-top: 1px solid var(--border-color);
     margin: 0 0;
   }
+
   .footnote-backref {
     display: inline;
   }

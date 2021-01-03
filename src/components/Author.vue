@@ -22,6 +22,12 @@
       <g-link to="/archives" style="color: var(--title-color);" title="归档">
         <font-awesome :icon="['fas', 'archive']" />
       </g-link>
+      <g-link
+        to="/friends"
+        style="color: var(--title-color);"
+        v-tooltip="{ content: '🧑🏿‍🚒 Friends' }"
+      ><font-awesome :icon="['fas', 'comment-dots']"/></g-link
+      >
       <span style="vertical-align: .12em ">|</span>
       <a
         href="//github.com/Junior125306"

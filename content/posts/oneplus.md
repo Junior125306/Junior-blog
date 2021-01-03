@@ -77,7 +77,7 @@ cmd输入命令`fastboot flashing unlock`
 
  之后手机会重启，开机后重走新手机的设置流程，但进入系统后可能会发现一些预装的app不见了，包括一加的云同步之类的，此时不要急，从论坛或者官网下载最新的对应机型的全量固件包（其实不比你当前版本低的全量包都行），下载下来，放到手机里，然后手动升级一次即可（设置里找系统更新，右上角点开有个从本地升级） 
 
-我用的是一加8t第四版本的包
+我用的是一加8t   3.4版本的包
 
 ```
 http://otaafsc-cost.h2os.com/OnePlus8T_CH/OnePlus8THydrogen_15.H.18_0180_2011011545/patch/CHN/OnePlus8THydrogen/OnePlus8THydrogen_15.H.18_0180_2011011545/OnePlus8THydrogen_15.H.18_OTA_0180_all_2011011545_6291e5844.zip

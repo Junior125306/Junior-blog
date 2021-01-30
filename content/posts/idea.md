@@ -66,6 +66,13 @@ idea本身是没有类似Sublime那样的代码整体预览的，这个插件恰
 **在光标处换行，光标位置不变 Ctrl + Enter**
 > Ctrl + Shift + Enter 换到下一行不会把当前行分成两部分 并且光标在下一行
 
+:::tip
+但是这快捷键的作用不止这样，真正的含义是 **为你结尾** ，例如Java 光标在行末的时候，它会自动为你补上分号以及格式化这一行代码，
+光标在括号内的话他会为你，加上另一半括号，当你写了个if 他会为你补上 
+if( ){
+ }
+:::
+
 <img src="https://cdn.zz-yy.top/blog/20-10-07-idea/CtrlEnter.gif" style="zoom: 80%;" />
 
 **和下一行合并 Ctrl + Shift + J**

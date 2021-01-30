@@ -1,12 +1,12 @@
 <template>
   <div>
     <div class="post-title">
-      <h1 class="post-title__text">
+      <h2 class="post-title__text">
         {{ $page.post.title }}
         <span class="post-title__publish-icon" v-if="!$page.post.published"
         >DRAFT</span
         >
-      </h1>
+      </h2>
 
       <PostMeta :post="$page.post" />
     </div>

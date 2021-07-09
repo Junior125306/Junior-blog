@@ -2,7 +2,7 @@
 title: Windows Terminal 设置备份
 date: 2021-07-09
 published: true
-slug: idea
+slug: terminal
 tags: ['开发工具']
 cover_image: "./images/Terminal.png"
 canonical_url: false

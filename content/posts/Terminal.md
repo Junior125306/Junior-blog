@@ -353,3 +353,4 @@ description: "备份下设置免得以后找不到"
     "theme": "dark"
 }
 ```
+<img src="https://cdn.zz-yy.top/blog/21-07-09-terminal/terminal1.jpg" style="zoom: 80%;" />

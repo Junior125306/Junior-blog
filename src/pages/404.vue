@@ -13,7 +13,7 @@
       <g-image
         alt="404 Not Found"
         class="not-found-bg"
-        src="https://cdn.zz-yy.top/404.webp"
+        src="https://img-1251014762.cos.ap-nanjing.myqcloud.com/404.webp"
         blur="5"
       />
     </div>

@@ -26,21 +26,21 @@ https://www.coolapk.com/feed/22790284 酷安-vip大白
 
 首先需要用到安卓得一个adb工具 ，[点击去官网下载](https://developer.android.com/studio/releases/platform-tools)
 
-![1604799193075](https://cdn.zz-yy.top/blog/20-11-10-oneplus/1604799193075.png)
+![1604799193075](https://img-1251014762.cos.ap-nanjing.myqcloud.com/blog/20-11-10-oneplus/1604799193075.png)
 
 下载所需要得版本，
 
-下载解压后是这个样子，其实用到的只有adb相关的东西![1604799234351](https://cdn.zz-yy.top/blog/20-11-10-oneplus/1604799234351.png)
+下载解压后是这个样子，其实用到的只有adb相关的东西![1604799234351](https://img-1251014762.cos.ap-nanjing.myqcloud.com/blog/20-11-10-oneplus/1604799234351.png)
 
 然后再去去环境变量配置一下，在此电脑上右键👉属性👉环境变量👉
 
 在下面的系统变量里找到`PATH` 然后双击，点右侧新建，添加刚才的platform-tools文件夹路径
 
-![1604799445457](https://cdn.zz-yy.top/blog/20-11-10-oneplus/1604799445457.png)
+![1604799445457](https://img-1251014762.cos.ap-nanjing.myqcloud.com/blog/20-11-10-oneplus/1604799445457.png)
 
 打开命令提示符输入`adb version`试一下
 
-![1604799523832](https://cdn.zz-yy.top/blog/20-11-10-oneplus/1604799523832.png)
+![1604799523832](https://img-1251014762.cos.ap-nanjing.myqcloud.com/blog/20-11-10-oneplus/1604799523832.png)
 
 有版本号说明可以使用。
 
@@ -61,17 +61,17 @@ bootloader得中文名称是系统启动加载器，顾名思义，主要功能�
 
 用数据先链接电脑（电脑没有c口找个usb口的线就ok），打开手机开发者选项（<b>设置-关于手机-连戳五下版本号，在进入设置-系统-开发者选项</b>），打开OEM解锁，打开USB调试。会弹出是否允许链接usb调试
 
-<img src="https://cdn.zz-yy.top/blog/20-11-10-oneplus/1604801147649.png" alt="1604801147649" style="zoom: 25%;" />
+<img src="https://img-1251014762.cos.ap-nanjing.myqcloud.com/blog/20-11-10-oneplus/1604801147649.png" alt="1604801147649" style="zoom: 25%;" />
 
 cmd输入`adb devices`查看是否连接成功
 
-![1604801753349](https://cdn.zz-yy.top/blog/20-11-10-oneplus/1604801753349.png)
+![1604801753349](https://img-1251014762.cos.ap-nanjing.myqcloud.com/blog/20-11-10-oneplus/1604801753349.png)
 
 cmd输入命令`adb reboot bootloader`,此时手机进入bootloader模式 
 
 cmd输入命令`fastboot flashing unlock`
 
-![1604803592915](https://cdn.zz-yy.top/blog/20-11-10-oneplus/1604803592915.png)
+![1604803592915](https://img-1251014762.cos.ap-nanjing.myqcloud.com/blog/20-11-10-oneplus/1604803592915.png)
 
  通过音量键上下选择，电源键确认，选择解锁。 
 
@@ -102,13 +102,13 @@ boot.img文件放到根目录下，刷入root得时候需要用，如果你使�
 
 安装好以后会给你说修补好的img文件在哪。
 
-![Slice](https://cdn.zz-yy.top/blog/20-11-10-oneplus/Slice1.png)
+![Slice](https://img-1251014762.cos.ap-nanjing.myqcloud.com/blog/20-11-10-oneplus/Slice1.png)
 
 把修补好的img包放到电脑上，然后执行cmd命令`adb reboot bootloader`,
 
 进入 bootloader以后，输入 `fastboot boot `然后把刚才放到电脑的包拖进命令行
 
-![1604807755331](https://cdn.zz-yy.top/blog/20-11-10-oneplus/1604807755331.png)
+![1604807755331](https://img-1251014762.cos.ap-nanjing.myqcloud.com/blog/20-11-10-oneplus/1604807755331.png)
 
 大概就是这个样子，然后回车，手机自动开机，此实已经拥有了root权限，不过找个权限一重启就没了， 所以还需要获取永久root权限。 
 
@@ -128,7 +128,7 @@ fastboot flash --slot all boot boot.img
 
 你需要在重启之前，先打开MagiskManager，点击安装magisk，选择安装到未使用的槽位，安装完毕后，重启手机即可。
 
-<img src="https://cdn.zz-yy.top/blog/20-11-10-oneplus/1604808769020.png" alt="1604808769020" style="zoom:25%;" />
+<img src="https://img-1251014762.cos.ap-nanjing.myqcloud.com/blog/20-11-10-oneplus/1604808769020.png" alt="1604808769020" style="zoom:25%;" />
 
 ## 五、刷入edxp框架
 

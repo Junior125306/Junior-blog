@@ -14,23 +14,23 @@ description: "开始第一次收集创作吧！！"
 1. `Dracula Theme`<br/>
 试过很多主题，这一款是我最最中意的了，配色五彩斑斓却不花哨，底色偏紫但是并不gay里gay气
 
-![官网展示图](https://cdn.zz-yy.top/blog/20-10-07-idea/theme.png)
+![官网展示图](https://img-1251014762.cos.ap-nanjing.myqcloud.com/blog/20-10-07-idea/theme.png)
 
 2. `Nyan Progress Bar`<br/>
 我不知道该怎么形容它，是可爱还是酷，感觉自己心里软软的，来看看效果
 
-![加载进度条](https://cdn.zz-yy.top/blog/20-10-07-idea/Nyan.gif)
+![加载进度条](https://img-1251014762.cos.ap-nanjing.myqcloud.com/blog/20-10-07-idea/Nyan.gif)
 
 3. `CodeGlance`<br/>
 idea本身是没有类似Sublime那样的代码整体预览的，这个插件恰恰实现了这个功能
 
-<img src="https://cdn.zz-yy.top/blog/20-10-07-idea/CodeGlance.png" style="zoom: 60%;" />
+<img src="https://img-1251014762.cos.ap-nanjing.myqcloud.com/blog/20-10-07-idea/CodeGlance.png" style="zoom: 60%;" />
 <br/>
 
 4. `Rainbow Brackets`<br/>
 有没有过因为代码括号太多看的眼花缭乱，这个插件可以帮助你快速识别每一对括号
 
-<img src="https://cdn.zz-yy.top/blog/20-10-07-idea/Rainbow_Brackets.png" style="zoom: 100%;" />
+<img src="https://img-1251014762.cos.ap-nanjing.myqcloud.com/blog/20-10-07-idea/Rainbow_Brackets.png" style="zoom: 100%;" />
 <br/>
 
 5. `google-java-format`<br/>
@@ -46,21 +46,21 @@ idea本身是没有类似Sublime那样的代码整体预览的，这个插件恰
 #### 行操作快捷键
 
 **向下复制行 Ctrl + D**
-<img src="https://cdn.zz-yy.top/blog/20-10-07-idea/CtrlD.gif" style="zoom: 78%;"/>
+<img src="https://img-1251014762.cos.ap-nanjing.myqcloud.com/blog/20-10-07-idea/CtrlD.gif" style="zoom: 78%;"/>
 
 **删除行 Ctrl + Y**
 
 > 不过我平常使用的是 Ctrl + X ，意思是剪切一行，也能够达到删除的视觉效果
 
-<img src="https://cdn.zz-yy.top/blog/20-10-07-idea/CtrlY.gif" style="zoom: 80%;" />
+<img src="https://img-1251014762.cos.ap-nanjing.myqcloud.com/blog/20-10-07-idea/CtrlY.gif" style="zoom: 80%;" />
 
 <br/>
 
 **上下移动行 Alt + Shift + ↑/↓**
-<img src="https://cdn.zz-yy.top/blog/20-10-07-idea/AltShift.gif" style="zoom: 80%;" />
+<img src="https://img-1251014762.cos.ap-nanjing.myqcloud.com/blog/20-10-07-idea/AltShift.gif" style="zoom: 80%;" />
 
 **光标移动到上一行 Ctrl + Alt + Enter**
-<img src="https://cdn.zz-yy.top/blog/20-10-07-idea/ctrlalt_enter.gif" style="zoom: 80%;" />
+<img src="https://img-1251014762.cos.ap-nanjing.myqcloud.com/blog/20-10-07-idea/ctrlalt_enter.gif" style="zoom: 80%;" />
 
 
 **在光标处换行，光标位置不变 Ctrl + Enter**
@@ -73,32 +73,32 @@ if( ){
  }
 :::
 
-<img src="https://cdn.zz-yy.top/blog/20-10-07-idea/CtrlEnter.gif" style="zoom: 80%;" />
+<img src="https://img-1251014762.cos.ap-nanjing.myqcloud.com/blog/20-10-07-idea/CtrlEnter.gif" style="zoom: 80%;" />
 
 **和下一行合并 Ctrl + Shift + J**
-<img src="https://cdn.zz-yy.top/blog/20-10-07-idea/CtrlSJ.gif" style="zoom: 80%;" />
+<img src="https://img-1251014762.cos.ap-nanjing.myqcloud.com/blog/20-10-07-idea/CtrlSJ.gif" style="zoom: 80%;" />
 
 
 **缩进/取消缩进  Tab/Shift + Tab**
-<img src="https://cdn.zz-yy.top/blog/20-10-07-idea/Tab_STab.gif" style="zoom: 80%;" />
+<img src="https://img-1251014762.cos.ap-nanjing.myqcloud.com/blog/20-10-07-idea/Tab_STab.gif" style="zoom: 80%;" />
 
 
 #### 多光标操作快捷键
 
 **向下寻找相同word 并且在word后面生成光标 Alt + J**
-<img src="https://cdn.zz-yy.top/blog/20-10-07-idea/Alt_J.gif" style="zoom: 80%;" />
+<img src="https://img-1251014762.cos.ap-nanjing.myqcloud.com/blog/20-10-07-idea/Alt_J.gif" style="zoom: 80%;" />
 
 
 **Alt + 鼠标拖动 自由用鼠标选择光标处**
-<img src="https://cdn.zz-yy.top/blog/20-10-07-idea/AltCheck.gif" style="zoom: 80%;" />
+<img src="https://img-1251014762.cos.ap-nanjing.myqcloud.com/blog/20-10-07-idea/AltCheck.gif" style="zoom: 80%;" />
 
 
 **Alt + Shift + 鼠标点击 在鼠标点击处生成光标**
-<img src="https://cdn.zz-yy.top/blog/20-10-07-idea/AltShiftcheck.gif" style="zoom: 80%;" />
+<img src="https://img-1251014762.cos.ap-nanjing.myqcloud.com/blog/20-10-07-idea/AltShiftcheck.gif" style="zoom: 80%;" />
 
 
 **Ctrl + Alt + Shift + J 在全文中找到相同的word并且生成光标**
-<img src="https://cdn.zz-yy.top/blog/20-10-07-idea/ctrlasJ.gif" style="zoom: 80%;" />
+<img src="https://img-1251014762.cos.ap-nanjing.myqcloud.com/blog/20-10-07-idea/ctrlasJ.gif" style="zoom: 80%;" />
 
 
 #### 搜索快捷键

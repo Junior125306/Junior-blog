@@ -42,15 +42,15 @@ import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.
 
 按快捷键 `Ctrl + Shift + P`  搜索 `package control` <br/>  然后点击 `Package Control: Install Package` 进入组件
 
-<img src="https://cdn.zz-yy.top/blog/21-01-30-sublime/sub_install1.png" style="zoom: 80%;" />
+<img src="https://img-1251014762.cos.ap-nanjing.myqcloud.com/blog/21-01-30-sublime/sub_install1.png" style="zoom: 80%;" />
 
 这个看到的就是插件目录啦 👇
 
-<img src="https://cdn.zz-yy.top/blog/21-01-30-sublime/sub_install2.png" style="zoom: 80%;" />
+<img src="https://img-1251014762.cos.ap-nanjing.myqcloud.com/blog/21-01-30-sublime/sub_install2.png" style="zoom: 80%;" />
 
 这里搜索`SideBarEnhancements` 这是一个展示文件目录的插件（其他大多插件我已经安装过不方便演示），选择插件回车或者双击安装
 
-<img src="https://cdn.zz-yy.top/blog/21-01-30-sublime/sub_install3.png" style="zoom: 80%;" />
+<img src="https://img-1251014762.cos.ap-nanjing.myqcloud.com/blog/21-01-30-sublime/sub_install3.png" style="zoom: 80%;" />
 
 点击后左下角会有显示在安装  安装完成后会提示 
 
@@ -60,7 +60,7 @@ import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.
 
 按 `Ctrl + ~` 也可以查看安装进度
 
-<img src="https://cdn.zz-yy.top/blog/21-01-30-sublime/sub_install6.png" style="zoom: 80%;" />
+<img src="https://img-1251014762.cos.ap-nanjing.myqcloud.com/blog/21-01-30-sublime/sub_install6.png" style="zoom: 80%;" />
 
 ### 🦴查看插件
 
@@ -70,7 +70,7 @@ import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.
 
 按快捷键 `Ctrl + Shift + P`  搜索 `remove`
 
-<img src="https://cdn.zz-yy.top/blog/21-01-30-sublime/sub_install5.png" style="zoom: 80%;" />
+<img src="https://img-1251014762.cos.ap-nanjing.myqcloud.com/blog/21-01-30-sublime/sub_install5.png" style="zoom: 80%;" />
 
 
 ### 🦴推荐插件

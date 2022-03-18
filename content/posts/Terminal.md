@@ -12,7 +12,7 @@ description: "备份下设置免得以后找不到"
 
 ### 下面是样子 
 
-<img src="https://cdn.zz-yy.top/blog/21-07-09-terminal/terminal1.jpg" style="zoom: 80%;" />
+<img src="https://img-1251014762.cos.ap-nanjing.myqcloud.com/blog/21-07-09-terminal/terminal1.jpg" style="zoom: 80%;" />
 
 ### 下面是代码和图片
 
@@ -25,8 +25,8 @@ description: "备份下设置免得以后找不到"
 
 #### 图片 🔻
 
-<img src="https://dow.zz-yy.top/au-os-L.png" style="zoom: 80%;" />
-<img src="https://dow.zz-yy.top/au-os-M.png" style="zoom: 80%;" />
+<img src="https://dow-1251014762.cos.ap-nanjing.myqcloud.com/au-os-L.png" style="zoom: 80%;" />
+<img src="https://dow-1251014762.cos.ap-nanjing.myqcloud.com/au-os-M.png" style="zoom: 80%;" />
 
 #### 配置文件 
 
@@ -353,4 +353,4 @@ description: "备份下设置免得以后找不到"
     "theme": "dark"
 }
 ```
-<img src="https://cdn.zz-yy.top/blog/21-07-09-terminal/terminal1.jpg" style="zoom: 80%;" />
+<img src="https://img-1251014762.cos.ap-nanjing.myqcloud.com/blog/21-07-09-terminal/terminal1.jpg" style="zoom: 80%;" />

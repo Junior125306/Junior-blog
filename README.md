@@ -1,4 +1,4 @@
-By:Junior
+# title
 
 Originated in the [spencerwooo](https://github.com/spencerwooo/blog)
 
@@ -25,6 +25,3 @@ yarn build
 ```bash
 yarn prettier
 ```
-
-<hr>
-

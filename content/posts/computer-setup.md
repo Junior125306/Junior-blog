@@ -24,6 +24,7 @@ description: "记录一下装机过程"
 [jetbrains idea](https://www.jetbrains.com/idea/download)&emsp;
 [jetbrains webstrom](https://www.jetbrains.com/webstorm/download)&emsp;
 [jetbrains datagrip](https://www.jetbrains.com/datagrip/download)&emsp;
+[jetbrains momo](https://www.jetbrains.com/lp/mono/)&emsp;
 [Visual Studio Code](https://code.visualstudio.com/)&emsp;
 [Cursor](https://www.cursor.com/)&emsp;
 [chrome](https://www.google.com/intl/zh-CN/chrome/)&emsp;
@@ -37,6 +38,7 @@ description: "记录一下装机过程"
 [百度网盘](https://pan.baidu.com/download)&emsp;
 [火绒](https://www.huorong.cn/)&emsp;
 [fnm](https://github.com/Schniz/fnm/releases)&emsp;
+[sublime](https://www.sublimetext.com/)&emsp;
 
 ## 配置相关
 
@@ -82,7 +84,7 @@ npm 设置镜像 `FNM_NODE_DIST_MIRROR` `https://npmmirror.com/mirrors/node/`
 
 ## 其他配置
 
-powershell 前置脚本
+**powershell 前置脚本**
 
 打开 PowerShell 的配置文件Microsoft.PowerShell_profile.ps1，文件路径为%USERPROFILE%\Documents\WindowsPowerShell，若没有对应文件夹或文件手动创建即可。
 
@@ -91,3 +93,22 @@ powershell 前置脚本
 ```bath
     fnm env --use-on-cd | Out-String | Invoke-Expression
 ```
+
+**sublime 配置**
+
+```json
+{
+ "update_check":false, //取消自动更新
+ "font_size": 12, //font_size：字体的大小
+ "font_face": "JetBrains Mono", //font_face；需要显示的字体名字
+}
+
+```
+
+sublime 插件
+
+- SublimeLinter 行内错误
+- BracketHighlighter 括号高亮
+- ConvertToUTF8 转换成 UTF8 编码
+- Trmmer 删除多余空格
+- PrettyJson 格式化JSON

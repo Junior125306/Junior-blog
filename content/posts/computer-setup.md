@@ -82,6 +82,16 @@ gradle 设置主目录 `GRADLE_USER_HOME` `D:\AppData\gradle_cache`
 
 npm 设置镜像 `FNM_NODE_DIST_MIRROR` `https://npmmirror.com/mirrors/node/`
 
+java 环境变量
+
+`JAVA_HOME` `D:\jdk1.8.0_441`
+
+`JRE_HOME` `D:\jdk1.8.0_441\jre`
+
+`CLASSPATH` `.;%JAVA_HOME%\lib;%JAVA_HOME%\lib\tools.jar`
+
+`PATH` `%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin`
+
 ## 其他配置
 
 **powershell 前置脚本**
